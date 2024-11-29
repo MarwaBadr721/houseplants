@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./planthouse.css";
-import TotalCost from "./TotalCost";
+import TotalCost from "./Totalcost";
 import { togglehouseSelection } from "./housesSlice";
 import { incrementAvQuantity, decrementAvQuantity } from "./avSlice";
 import { useSelector, useDispatch } from "react-redux";
